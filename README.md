@@ -14,9 +14,11 @@
 
 # Índice
 [Sobre](#id1)<br>
-<!-- [](#id2)<br>
+[Nome de variáveis](#id2)<br>
+<!-- 
 [](#id3)<br>
-[](#id98)<br> -->
+[](#id98)<br> 
+-->
 [Autora](#id99)
 
 <br>
@@ -33,7 +35,48 @@ Clean Code está pautado em 3 pilares: legibilidade, manutenível, previsibilida
 
 <div id="id2"></div>
 
-<!-- ## 📌  -->
+## 📌 Nome de variáveis
+- evitar diminutivos não entendíveis (u, x, y)
+- nomear a função de acordo com a sua funcionalidade
+
+  ```js
+  const users = ['Diego', 'Mayk', 'Rodrigo']
+
+  /* ERRADO */
+  const filtered = users.filter(u => {
+    return u.startsWith('D')
+  })
+
+  /* CORRETO */
+  const usersStartingWithLetterD = users.filter(u => {
+    return u.startsWith('D')
+  })
+  ```
+- evitar nomes genéricos (data, response, list, args, params)
+  ```js
+  /* ERRADO */
+  function getUsers() => {
+    const data = getUsersFromDatabase()
+
+    // validação
+    // manipulação dos dados (mapping)
+
+    return data
+  }
+
+  /* CORRETO */
+  function getUsers() => {
+    const users = getUsersFromDatabase()
+
+    // validação
+    // manipulação dos dados (mapping)
+
+    return users
+  }
+  ```
+
+### ⚔️ [Desafio](clean-code-desafios/desafios.md)
+
 
 <br>
 
