@@ -1,13 +1,13 @@
 <p align="center">
-  <img src=".github/logo.png" width=400 alt="Clean Node API">
+  <img src=".github/logo.png" width=400 alt="Clean Code">
 </p>
 
 <h1 align="center">
   <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/nlnadialigia/clean-code?color=FF6E31&style=plastic">
   <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/nlnadialigia/clean-code?color=FF6E31&style=plastic">
   <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/nlnadialigia/clean-code?color=FF6E31&logoColor=FF6E31&style=plastic">
-  <a href="./LICENSE.md">
-  <img alt="GitHub" src="https://img.shields.io/github/license/nlnadialigia/clean-code?color=FF6E31&style=plastic">
+  <a href="LICENSE">
+  <img alt="GitHub" src="https://img.shields.io/github/license/nlnadialigia/clean-code?color=FF6E31&logoColor=FF6E31&style=plastic">
   </a>
 </h1>
 <br>
@@ -27,7 +27,7 @@
 
 Repositório dos Desafios realizados no Curso de Clean ode produzido pela [Rocketseat](https://www.rocketseat.com.br/).
 
-Clean Code está pautado em 3 pilares: legibilidade, manutenível e previsibilidade.
+Clean Code está pautado em 3 pilares: legibilidade, manutenível, previsibilidade e confiança.
 
 <br>
 
