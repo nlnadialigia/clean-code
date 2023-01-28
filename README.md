@@ -72,7 +72,7 @@ Clean Code está pautado em 3 pilares: legibilidade, manutenível, previsibilida
       }
   ```
 
-### ⚔️ [Desafio](clean-code-desafios/desafios.md)
+### ⚔️ [Desafio](clean-code-desafios/desafios.md#id1)
 
 <br>
 
@@ -98,7 +98,7 @@ Clean Code está pautado em 3 pilares: legibilidade, manutenível, previsibilida
   ✔️ if (isUserProfileLoading) {}
   ```
 
-### ⚔️ [Desafio](clean-code-desafios/desafios.md)
+### ⚔️ [Desafio](clean-code-desafios/desafios.md#id2)
 
 <br>
 
