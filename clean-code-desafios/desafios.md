@@ -73,7 +73,6 @@ O objetivo nesse código não é corrigir ou implementar o seu funcionamento, po
 
 <div id="id5"></div>
 
-<!-- 
 ### ⚔️ [Regras em condicionais](desafios/05-regras-em-condicionais.ts) 
 O código contém uma função que verifica se um aluno irá ou não ser aprovado ao final do ano escolar.
 
@@ -83,7 +82,6 @@ Para ser aprovado, existem duas regras:
 - Suas faltas devem ser menores que 100
 
 O objetivo é reorganizar o código de forma a aplicar o que foi aprendido sobre regras em condicionais.
--->
 
 <br>
 

@@ -18,8 +18,8 @@
 [Booleanos](#id3)<br>
 [Causa vs Efeito](#id04)<br> 
 [Código em inglês](#id05)<br> 
-<!-- 
 [Regras em condicionais](#id06)<br> 
+<!-- 
 [Parâmetros e desestruturação](#id07)<br> 
 [Números mágicos](#id08)<br> 
 [Comentários vs Documentação](#id09)<br> 
@@ -149,7 +149,49 @@ Clean Code está pautado em 3 pilares: legibilidade, manutenível, previsibilida
 
 <div id="id06"></div>
 
-<!-- ## 📌 Regras em condicionais -->
+## 📌 Regras em condicionais
+**📎 Negação dentro de ifs**
+  - evite sempre que possível as negações.
+  - tente transcrever o código para que a variável possa ler lida do contrário
+    ```js
+    ❌ 
+    const isUserOlderThan18Years = true
+    const isUserLivesOnBrazil = true
+
+    if (!isUserOlderThan18Years && !isUserLivesOnBrazil) {}
+
+    ✔️
+    const isUserYoungerThan18Years = true
+    const doesUserLivesOutsideBrazil = true
+
+    if (isUserYoungerThan18Years && doesUserLivesOutsideBrazil) {}
+    ```
+**📎 Early return vs else**
+  - a substituição do `else` por `early return` é válida na maioria das situações
+  ```js
+  ❌ function isUserOlderThan18Years(user) {
+        if (!user) {
+          return {error: true}
+        } else {
+          return user.age >= 18
+        }
+      }
+
+  ✔️ function isUserOlderThan18Years(user) {
+        if (!user) {
+          return {error: true}
+        } 
+
+        return user.age >= 18
+      }
+  ```
+
+  - a utilização do `else` é mais apropriada quando no `if` não for fácil a identificação do momento em que o `return` será utilizado.
+
+**📎 Evite condicionais aninhadas**
+- prefira unificar as condições e, no caso de não ser possível, utilizar vários `ifs`.
+
+#### ⚔️ [Desafio](clean-code-desafios/desafios.md#id5)
 
 <br>
 
@@ -181,7 +223,7 @@ Clean Code está pautado em 3 pilares: legibilidade, manutenível, previsibilida
 
 ## 👩‍💼 Autora
 <img src=".github/picture.png" width="100px;" alt="Picture"/>
-<p><b>Nádia Ligia, budding back-end developer.</b></p>
+<p><b>Nádia Ligia, back-end developer.</b></p>
 <a href="https://www.linkedin.com/in/nlnadialigia/">
   <img alt="Linkedin" src="https://img.shields.io/badge/-Linkedin -FF6E31?style=flat&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/nlnadialigia/" />
 </a>&nbsp;
