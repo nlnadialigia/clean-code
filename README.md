@@ -17,9 +17,13 @@
 [Nome de variáveis](#id2)<br>
 [Booleanos](#id3)<br>
 [Causa vs Efeito](#id04)<br> 
+[Código em inglês](#id05)<br> 
 <!-- 
-[](#id05)<br> 
-[](#id06)<br> 
+[Regras em condicionais](#id06)<br> 
+[Parâmetros e desestruturação](#id07)<br> 
+[Números mágicos](#id08)<br> 
+[Comentários vs Documentação](#id09)<br> 
+[Syntactic Sugars](#id10)<br> 
 -->
 [Autora](#id99)
 
@@ -73,7 +77,7 @@ Clean Code está pautado em 3 pilares: legibilidade, manutenível, previsibilida
       }
   ```
 
-### ⚔️ [Desafio](clean-code-desafios/desafios.md#id1)
+#### ⚔️ [Desafio](clean-code-desafios/desafios.md#id1)
 
 <br>
 
@@ -99,7 +103,7 @@ Clean Code está pautado em 3 pilares: legibilidade, manutenível, previsibilida
   ✔️ if (isUserProfileLoading) {}
   ```
 
-### ⚔️ [Desafio](clean-code-desafios/desafios.md#id2)
+#### ⚔️ [Desafio](clean-code-desafios/desafios.md#id2)
 
 <br>
 
@@ -129,19 +133,47 @@ Clean Code está pautado em 3 pilares: legibilidade, manutenível, previsibilida
       }
   ```
 
-### ⚔️ [Desafio](clean-code-desafios/desafios.md#id3)
+#### ⚔️ [Desafio](clean-code-desafios/desafios.md#id3)
 
 <br>
 
 <div id="id05"></div>
 
-<!-- ## 📌  -->
+## 📌 Código em inglês
+- Código que não está em inglês não é um código acessível.
+- Os leitores de tela não conseguem ler dois idiomas ao mesmo tempo, ou seja, os desenvolvedores com deficiências visuais não conseguiram utilizar o código que está em português, visto que as linguagens de programação são em inglês.
+
+#### ⚔️ [Desafio](clean-code-desafios/desafios.md#id4)
 
 <br>
 
 <div id="id06"></div>
 
-<!-- ## 📌  -->
+<!-- ## 📌 Regras em condicionais -->
+
+<br>
+
+<div id="id07"></div>
+
+<!-- ## 📌 Parâmetros e desestruturação -->
+
+<br>
+
+<div id="id08"></div>
+
+<!-- ## 📌 Números mágicos -->
+
+<br>
+
+<div id="id09"></div>
+
+<!-- ## 📌 Comentários vs Documentação -->
+
+<br>
+
+<div id="id10"></div>
+
+<!-- ## 📌 Syntactic Sugars -->
 
 <br>
 
