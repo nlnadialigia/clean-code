@@ -47,8 +47,8 @@ Clean Code está pautado em 3 pilares: legibilidade, manutenível, previsibilida
         return u.startsWith('D')
       })
 
-  ✔️ const usersStartingWithLetterD = users.filter(u => {
-        return u.startsWith('D')
+  ✔️ const usersStartingWithLetterD = users.filter(user => {
+        return user.startsWith('D')
       })
   ```
 - evitar nomes genéricos (data, response, list, args, params)
