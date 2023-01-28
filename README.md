@@ -16,9 +16,10 @@
 [Sobre](#id1)<br>
 [Nome de variáveis](#id2)<br>
 [Booleanos](#id3)<br>
+[Causa vs Efeito](#id04)<br> 
 <!-- 
-[](#id04)<br> 
 [](#id05)<br> 
+[](#id06)<br> 
 -->
 [Autora](#id99)
 
@@ -104,11 +105,41 @@ Clean Code está pautado em 3 pilares: legibilidade, manutenível, previsibilida
 
 <div id="id04"></div>
 
-<!-- ## 📌  -->
+## 📌 Causa vs Efeito 
+- as variáveis devem ser criadas pela causa e nunca pelo efeito que a variável terá no código
+  ```js
+  ❌ function Button() {
+        const isButtonDisabled = true
+        return (
+          <button disabled={isButtonDisabled}>
+            <span></span>
+            {isButtonDisabled ? 'Carregando' : 'Enviar'}
+          </button>
+        )
+      }
+
+  ✔️ function Button() {
+        const isFormSubmitting = true
+        return (
+          <button disabled={isFormSubmitting}>
+            <span></span>
+            {isFormSubmitting ? 'Carregando' : 'Enviar'}
+          </button>
+        )
+      }
+  ```
+
+### ⚔️ [Desafio](clean-code-desafios/desafios.md#id3)
 
 <br>
 
 <div id="id05"></div>
+
+<!-- ## 📌  -->
+
+<br>
+
+<div id="id06"></div>
 
 <!-- ## 📌  -->
 
