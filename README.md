@@ -15,9 +15,10 @@
 # Índice
 [Sobre](#id1)<br>
 [Nome de variáveis](#id2)<br>
+[Booleanos](#id3)<br>
 <!-- 
-[](#id3)<br>
-[](#id98)<br> 
+[](#id04)<br> 
+[](#id05)<br> 
 -->
 [Autora](#id99)
 
@@ -27,7 +28,7 @@
 
 ## 📌 Sobre 
 
-Repositório dos Desafios realizados no Curso de Clean ode produzido pela [Rocketseat](https://www.rocketseat.com.br/).
+Repositório dos Desafios realizados no Curso de Clean Code produzido pela [Rocketseat](https://www.rocketseat.com.br/).
 
 Clean Code está pautado em 3 pilares: legibilidade, manutenível, previsibilidade e confiança.
 
@@ -42,51 +43,72 @@ Clean Code está pautado em 3 pilares: legibilidade, manutenível, previsibilida
   ```js
   const users = ['Diego', 'Mayk', 'Rodrigo']
 
-  /* ERRADO */
-  const filtered = users.filter(u => {
-    return u.startsWith('D')
-  })
+  ❌ const filtered = users.filter(u => {
+        return u.startsWith('D')
+      })
 
-  /* CORRETO */
-  const usersStartingWithLetterD = users.filter(u => {
-    return u.startsWith('D')
-  })
+  ✔️ const usersStartingWithLetterD = users.filter(u => {
+        return u.startsWith('D')
+      })
   ```
 - evitar nomes genéricos (data, response, list, args, params)
   ```js
-  /* ERRADO */
-  function getUsers() => {
-    const data = getUsersFromDatabase()
+  ❌ function getUsers() => {
+        const data = getUsersFromDatabase()
 
-    // validação
-    // manipulação dos dados (mapping)
+        // validação
+        // manipulação dos dados (mapping)
 
-    return data
-  }
+        return data
+      }
 
-  /* CORRETO */
-  function getUsers() => {
-    const users = getUsersFromDatabase()
+  ✔️ function getUsers() => {
+        const users = getUsersFromDatabase()
 
-    // validação
-    // manipulação dos dados (mapping)
+        // validação
+        // manipulação dos dados (mapping)
 
-    return users
-  }
+        return users
+      }
   ```
 
 ### ⚔️ [Desafio](clean-code-desafios/desafios.md)
-
 
 <br>
 
 <div id="id3"></div>
 
+## 📌 Booleanos
+- variáveis que armazenam o estado da aplicação
+- devem ser escritas em forma de pergunta
+
+  ```js
+  const isUserOnMajority = true
+
+  // is, does, has
+
+  ❌ const disabled = true 
+  ✔️ const isDisabled = true 
+  ```
+
+- concatenando os booleanos com a nomenclatura das variáveis
+
+  ```js
+  ❌ if (loading) {}
+  ✔️ if (isUserProfileLoading) {}
+  ```
+
+### ⚔️ [Desafio](clean-code-desafios/desafios.md)
+
+<br>
+
+<div id="id04"></div>
+
 <!-- ## 📌  -->
 
 <br>
 
-<div id="id98"></div>
+<div id="id05"></div>
 
 <!-- ## 📌  -->
 
