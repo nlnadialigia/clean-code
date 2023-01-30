@@ -19,8 +19,8 @@
 [Causa vs Efeito](#id04)<br> 
 [Código em inglês](#id05)<br> 
 [Regras em condicionais](#id06)<br> 
-<!-- 
 [Parâmetros e desestruturação](#id07)<br> 
+<!-- 
 [Números mágicos](#id08)<br> 
 [Comentários vs Documentação](#id09)<br> 
 [Syntactic Sugars](#id10)<br> 
@@ -168,23 +168,23 @@ Clean Code está pautado em 3 pilares: legibilidade, manutenível, previsibilida
     ```
 **📎 Early return vs else**
   - a substituição do `else` por `early return` é válida na maioria das situações
-  ```js
-  ❌ function isUserOlderThan18Years(user) {
-        if (!user) {
-          return {error: true}
-        } else {
+    ```js
+    ❌ function isUserOlderThan18Years(user) {
+          if (!user) {
+            return {error: true}
+          } else {
+            return user.age >= 18
+          }
+        }
+
+    ✔️ function isUserOlderThan18Years(user) {
+          if (!user) {
+            return {error: true}
+          } 
+
           return user.age >= 18
         }
-      }
-
-  ✔️ function isUserOlderThan18Years(user) {
-        if (!user) {
-          return {error: true}
-        } 
-
-        return user.age >= 18
-      }
-  ```
+    ```
 
   - a utilização do `else` é mais apropriada quando no `if` não for fácil a identificação do momento em que o `return` será utilizado.
 
@@ -197,7 +197,102 @@ Clean Code está pautado em 3 pilares: legibilidade, manutenível, previsibilida
 
 <div id="id07"></div>
 
-<!-- ## 📌 Parâmetros e desestruturação -->
+## 📌 Parâmetros e desestruturação
+- sempre que possível, receber e enviar parâmetros nomeados
+  ```js
+  /*
+  Rota de para criação do usuário (nome, email, password)
+  Controller (nome, email, password)
+  Repositório (nome, email, password)
+  */
+
+  ❌
+  function createUserRoute(body) {
+    // validações
+
+    createUserController(body)
+  }
+
+  function createUserController(data) {
+    usersRepository.create(data)
+  }
+
+  const usersRepository = {
+    create(data)
+    // cria o usuário (nome, email, password)
+  }
+
+  ✔️
+  function createUserController(data) {
+    const {name, email, password} = data
+    usersRepository.create({
+      name,
+      email,
+      password
+    })
+  }
+  ```
+- prefira receber nas funções objeto ao invés de múltiplos parâmetros
+  ```js
+  ❌
+  function createUserRoute(body, params) {
+    const {name, email, password} = body
+
+    // validações
+
+    createUserController({
+      name,
+      email,
+      password
+    })
+  }
+
+  // Chamada com todos as variáveis
+  createUserRoute({name, email, password}, {id: 1})
+
+  // Chamada somente com o params
+  createUserRoute(null, {id: 1})
+
+  ✔️
+  function createUserRoute({body, params}) {
+    const {name, email, password} = body
+
+    // validações
+
+    createUserController({
+      body: {name, email, password},
+      params: {id: 1}
+    })
+  }
+
+  createUserRoute({
+    params: {id: 1}
+  })  
+  ```
+- muitas vezes faz sentido a resposta da sua função ser um objeto
+  ```js
+  ❌
+  const usersRepository = {
+    create(data) {
+      const user = createUserOnDatabase()
+
+      return user
+    }
+  }
+
+  ✔️
+  const usersRepository = {
+    create(data) {
+      const user = createUserOnDatabase()
+
+      return {
+        user
+      }
+    }
+  }
+  ```
+
+#### ⚔️ [Desafio](clean-code-desafios/desafios.md#id6)
 
 <br>
 

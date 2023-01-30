@@ -87,7 +87,6 @@ O objetivo é reorganizar o código de forma a aplicar o que foi aprendido sobre
 
 <div id="id6"></div>
 
-<!-- 
 ### ⚔️ [Parâmetros e desestruturação](desafios/06-parametros-e-desestruturacao.tsx) 
 O código contém funções que lidam com a atualização dos dados de um usuário a partir de uma rota que receberá os seguintes dados:
 
@@ -97,7 +96,6 @@ params: { id }
 ```
 
 O objetivo nesse código é aplicar os conceitos aprendidos na aula dando mais clareza ao código sobre o que os parâmetros `body`, `params` e `data` recebem.
--->
 
 <br>
 
