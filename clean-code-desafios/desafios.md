@@ -2,11 +2,11 @@
 [Nome de variáveis](#id1)<br>
 [Booleanos](#id2)<br>
 [Causa vs Efeito](#id03)<br>
-<!-- 
 [Código em inglês](#id04)<br> 
 [Regras em condicionais](#id05)<br> 
 [Parâmetros e desestruturação](#id06)<br> 
 [Números mágicos](#id07)<br> 
+<!-- 
 [Comentários vs Documentação](#id08)<br> 
 [Syntactic Sugars](#id09)<br>  
 -->
@@ -101,7 +101,6 @@ O objetivo nesse código é aplicar os conceitos aprendidos na aula dando mais c
 
 <div id="id7"></div>
 
-<!-- 
 ### ⚔️ [Números mágicos](desafios/07-numeros-magicos.js) 
 O código contém funções que lidam com checagem de atualizações de uma aplicação e cálculo de desconto, onde:
 
@@ -109,7 +108,6 @@ O código contém funções que lidam com checagem de atualizações de uma apli
 - Os cálculos do desconto devem ter o preço em centavos e o desconto em porcentagem
 
 O objetivo é aplicar os conceitos aprendidos na aula dando mais clareza ao código sobre a que esses números mágicos se referem.
--->
 
 <br>
 

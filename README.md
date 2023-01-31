@@ -20,8 +20,8 @@
 [Código em inglês](#id05)<br> 
 [Regras em condicionais](#id06)<br> 
 [Parâmetros e desestruturação](#id07)<br> 
-<!-- 
 [Números mágicos](#id08)<br> 
+<!-- 
 [Comentários vs Documentação](#id09)<br> 
 [Syntactic Sugars](#id10)<br> 
 -->
@@ -298,7 +298,34 @@ Clean Code está pautado em 3 pilares: legibilidade, manutenível, previsibilida
 
 <div id="id08"></div>
 
-<!-- ## 📌 Números mágicos -->
+## 📌 Números mágicos
+- cálculos que não são fáceis de serem entendidos por uma pessoa que nunca deu manutenção no código ou não sabe o contexto.
+- comum em comparação de datas, na criação de intervalos.
+```js
+// setTimeout, setInterval
+
+❌ setTimeout(() => {}, 2592000000);
+
+✔️ 
+setTimeout(() => {}, 1000 * 60 * 60 * 24 * 30) // 30 days
+
+const interval_30_days = 1000 * 60 * 60 * 24 * 30
+setTimeout(() => {}, interval_30_days);
+```
+- uma boa prática é colocar nas variáveis qual a unidade em que a mesma está
+```js
+❌
+function calculateDiscount(price, discountAmount) {
+  //retorna desconto
+}
+
+✔️
+function calculateDiscount(priceInCents, discountAmountInPercent) {
+  //retorna desconto
+}
+```
+
+#### ⚔️ [Desafio](clean-code-desafios/desafios.md#id7)
 
 <br>
 
