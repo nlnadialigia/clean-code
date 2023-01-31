@@ -22,9 +22,7 @@
 [Parâmetros e desestruturação](#id07)<br> 
 [Números mágicos](#id08)<br> 
 [Comentários vs Documentação](#id09)<br> 
-<!-- 
 [Syntactic Sugars](#id10)<br> 
--->
 [Autora](#id99)
 
 <br>
@@ -350,7 +348,25 @@ Clean Code está pautado em 3 pilares: legibilidade, manutenível, previsibilida
 
 <div id="id10"></div>
 
-<!-- ## 📌 Syntactic Sugars -->
+## 📌 Syntactic Sugars
+- Coisas específicas de uma linguagem. Evitar até o ponto que não atrapalhe a produtividade.
+- Utilize comandos que fazem sentido e geralmente são utilizados em várias linguagens de programação.
+  ```js
+  const numberInString = "12373"
+
+  ❌ const number = +numberInString
+  ❌ const number = parseInt(numberInString)
+
+  ✔️ const number = Number(numberInString)
+
+  ❌ const isNumberNotNull = !!number
+  ✔️ const isNumberNotNull = Boolean(number)
+
+  ❌ const numberAsString = `${number}`
+  ✔️ const numberAsString = String(number)
+  ```
+
+#### ⚔️ [Desafio](clean-code-desafios/desafios.md#id9)
 
 <br>
 
