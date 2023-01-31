@@ -21,8 +21,8 @@
 [Regras em condicionais](#id06)<br> 
 [Parâmetros e desestruturação](#id07)<br> 
 [Números mágicos](#id08)<br> 
-<!-- 
 [Comentários vs Documentação](#id09)<br> 
+<!-- 
 [Syntactic Sugars](#id10)<br> 
 -->
 [Autora](#id99)
@@ -301,29 +301,29 @@ Clean Code está pautado em 3 pilares: legibilidade, manutenível, previsibilida
 ## 📌 Números mágicos
 - cálculos que não são fáceis de serem entendidos por uma pessoa que nunca deu manutenção no código ou não sabe o contexto.
 - comum em comparação de datas, na criação de intervalos.
-```js
-// setTimeout, setInterval
+  ```js
+  // setTimeout, setInterval
 
-❌ setTimeout(() => {}, 2592000000);
+  ❌ setTimeout(() => {}, 2592000000);
 
-✔️ 
-setTimeout(() => {}, 1000 * 60 * 60 * 24 * 30) // 30 days
+  ✔️ 
+  setTimeout(() => {}, 1000 * 60 * 60 * 24 * 30) // 30 days
 
-const interval_30_days = 1000 * 60 * 60 * 24 * 30
-setTimeout(() => {}, interval_30_days);
-```
+  const interval_30_days = 1000 * 60 * 60 * 24 * 30
+  setTimeout(() => {}, interval_30_days);
+  ```
 - uma boa prática é colocar nas variáveis qual a unidade em que a mesma está
-```js
-❌
-function calculateDiscount(price, discountAmount) {
-  //retorna desconto
-}
+  ```js
+  ❌
+  function calculateDiscount(price, discountAmount) {
+    //retorna desconto
+  }
 
-✔️
-function calculateDiscount(priceInCents, discountAmountInPercent) {
-  //retorna desconto
-}
-```
+  ✔️
+  function calculateDiscount(priceInCents, discountAmountInPercent) {
+    //retorna desconto
+  }
+  ```
 
 #### ⚔️ [Desafio](clean-code-desafios/desafios.md#id7)
 
@@ -331,7 +331,20 @@ function calculateDiscount(priceInCents, discountAmountInPercent) {
 
 <div id="id09"></div>
 
-<!-- ## 📌 Comentários vs Documentação -->
+## 📌 Comentários vs Documentação
+- Comentário serve como um aviso para outro desenvolvedor para explicar o porquê o código foi realizado dessa forma, seja por uma regra de negócio específica, alguma limitação de biblioteca, por algum erro, ou sinalizar um padrão diferente.
+- Documentação não é legal ter dentro do comentário.
+  ```js
+  /**
+   * Esse código foi escrito assim porque a biblioteca X ainda não suporta Y
+   * 
+   * https://github.com/author/X/issues/123456
+   */
+
+  // código
+  ```
+
+#### ⚔️ [Desafio](clean-code-desafios/desafios.md#id8)
 
 <br>
 

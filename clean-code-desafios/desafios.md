@@ -6,8 +6,8 @@
 [Regras em condicionais](#id05)<br> 
 [Parâmetros e desestruturação](#id06)<br> 
 [Números mágicos](#id07)<br> 
-<!-- 
 [Comentários vs Documentação](#id08)<br> 
+<!-- 
 [Syntactic Sugars](#id09)<br>  
 -->
 
@@ -113,7 +113,6 @@ O objetivo é aplicar os conceitos aprendidos na aula dando mais clareza ao cód
 
 <div id="id8"></div>
 
-<!-- 
 ### ⚔️ [Comentários vs Documentação](desafios/08-comentarios-vs-documentacao.js) 
 O código contém uma função responsável pelo registro do usuário no banco de dados. Porém, antes de cadastrar o usuário no banco é preciso realizar alguns passos:
 
@@ -121,7 +120,6 @@ O código contém uma função responsável pelo registro do usuário no banco d
 - Conversão do avatar para JPG.
 
 O objetivo é aplicar os conceitos aprendidos na aula, removendo o máximo de comentários possível. Lembrando que é válido reescrever um trecho de código para deixá-lo mais claro, dispensando assim a necessidade do comentário.
--->
 
 <br>
 
