@@ -15,6 +15,7 @@
 # Índice
 [Sobre](#id1)<br>
 [Código limpo com Javascript](#id2)<br>
+[Código limpo com React](#id3)<br>
 
 [Autora](#id99)
 
@@ -42,6 +43,13 @@ Clean Code está pautado em 3 pilares: legibilidade, manutenível, previsibilida
 - [Números mágicos](./docs/javascript.md#id08)<br> 
 - [Comentários vs Documentação](./docs/javascript.md#id09)<br> 
 - [Syntactic Sugars](./docs/javascript.md#id10)<br> 
+
+<br>
+
+<div id="id03"></div>
+
+## 📌 Código limpo com React
+[Desacoplando componentes](./docs/react.md#id#1)<br>
 
 <br>
 

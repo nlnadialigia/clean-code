@@ -1,3 +1,7 @@
+<h1 align="center">
+  <img src="../.github/javascript.png" alt="Código limpo no Javascript">
+</h1>
+
 ## Índice
 [Nome de variáveis](#id2)<br>
 [Booleanos](#id3)<br>
