@@ -50,6 +50,7 @@ Clean Code está pautado em 3 pilares: legibilidade, manutenível, previsibilida
 
 ## 📌 Código limpo com React
 [Desacoplando componentes](./docs/react.md#id#1)<br>
+[Componentes puros](./docs/react.md#id#2)<br>
 
 <br>
 
