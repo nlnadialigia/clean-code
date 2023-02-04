@@ -10,9 +10,9 @@ function App() {
     // carregar uma lista de to dos do back-end
   }, [])
 
-  
-
   function handleCreateNewTodo() {}
+
+  const isTodoListEmpty = todos.length === 0
 
   return (
     <div>
@@ -44,6 +44,10 @@ function App() {
         <ul>
           {todos.map(todo => <li key={todo}>{todo}</li>)}
         </ul>
+
+        {isTodoListEmpty && (
+          <div>Nenhum <strong>to do </strong>cadastrado.</div>
+        )}
       </main>
 
       <Footer />

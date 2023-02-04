@@ -7,9 +7,8 @@
 [Componentes puros](id#2)<br>
 [Funções e eventos no React](id#3)<br>
 [Composição vs Customização](id#4)<br>
-<!-- 
 [Condicionais no render](id#5)<br>
- -->
+
 <br>
 
 <div id="id1"></div>
@@ -52,12 +51,13 @@ O projeto react são projetos que carregam várias camadas, o que pode deixar o 
 ### 📌 Composição vs Customização
 - no pattern de composição ao invés da utilização de propriedade para configurar o componente, cria-se outros componentes.
 
-#### Exemplo:
-  **Customização**
+**Exemplo:**
+
+  *Customização*
   - [Input](../react-app/src/example/Input.tsx)
   - [App](../react-app/src/example/App.tsx)
   
-  **Composição**
+  *Composição*
   - [Input](../react-app/src/components/Input.tsx)
   - [Input](../react-app/src/App.tsx)
 
@@ -65,6 +65,16 @@ O projeto react são projetos que carregam várias camadas, o que pode deixar o 
 
 <div id="id5"></div>
 
-<!-- ### 📌 Condicionais no render -->
+### 📌 Condicionais no render
+- evite colocar as condicionais na camada de renderização.
+- deixar a camada de html com o mínimo de dependência de operações javascript.
+
+**Exemplo**
+
+*Mostrar uma mensagem se não tiver to dos a serem exibidos em tela*
+
+[❌ No html](../react-app/src/example/App.tsx)
+
+[✔️ Fora do html](../react-app/src/App.tsx)
 
 <br>

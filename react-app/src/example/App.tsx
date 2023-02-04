@@ -42,6 +42,10 @@ function App() {
         <ul>
           {todos.map(todo => <li key={todo}>{todo}</li>)}
         </ul>
+
+        {todos.length === 0 && (
+          <div>Nenhum to do a ser exibido</div>
+        )}
       </main>
 
       <Footer />

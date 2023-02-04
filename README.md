@@ -53,7 +53,7 @@ Clean Code está pautado em 3 pilares: legibilidade, manutenível, previsibilida
 [Componentes puros](./docs/react.md#id#2)<br>
 [Funções e eventos no React](./docs/react.md#id#3)<br>
 [Composição vs Customização](./docs/react.md#id#4)<br>
-
+[Condicionais no render](./docs/react.md#id#5)<br>
 
 <br>
 
