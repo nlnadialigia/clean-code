@@ -5,8 +5,8 @@
 ## Índice
 [Desacoplando componentes](id#1)<br>
 [Componentes puros](id#2)<br>
-<!-- 
 [Funções e eventos no React](id#3)<br>
+<!-- 
 [Composição vs Customização](id#4)<br>
 [Condicionais no render](id#5)<br>
  -->
@@ -40,7 +40,10 @@ O projeto react são projetos que carregam várias camadas, o que pode deixar o 
 
 <div id="id3"></div>
 
-<!-- ### 📌 Funções e eventos no React -->
+### 📌 Funções e eventos no React
+- sempre que for criar uma função dentro do componente e essa função é disparada através de um evento do usuário, como um `click` ou `submit`, prefixar a função com com `handle`. Assim fica fácil a diferenciação entre as funções.
+- quando um componente precisa receber uma função disparada através de um evento do usuário, prefixar com `on`.
+- O padrão utilizado não é o mais importante. O importante é manter um padrão quando se trabalha em projetos com componentes em React.
 
 <br>
 

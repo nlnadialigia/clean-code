@@ -1,11 +1,17 @@
-import { useEffect, useState } from 'react'
+import {useEffect, useState} from 'react';
 import {Footer} from './components/Footer';
 import Header from './components/Header';
 
 function App() {
   const [todos, setTodos] = useState<string[]>([])
 
-  useEffect(() => {}, [])
+  useEffect(() => {
+    // carregar uma lista de to dos do back-end
+  }, [])
+
+  
+
+  function handleCreateNewTodo() {}
 
   return (
     <div>
