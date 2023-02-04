@@ -3,15 +3,15 @@
 </h1>
 
 ## Índice
-[Nome de variáveis](#id2)<br>
-[Booleanos](#id3)<br>
-[Causa vs Efeito](#id04)<br> 
-[Código em inglês](#id05)<br> 
-[Regras em condicionais](#id06)<br> 
-[Parâmetros e desestruturação](#id07)<br> 
-[Números mágicos](#id08)<br> 
-[Comentários vs Documentação](#id09)<br> 
-[Syntactic Sugars](#id10)<br> 
+[Nome de variáveis](#id2)  
+[Booleanos](#id3)  
+[Causa vs Efeito](#id04)   
+[Código em inglês](#id05)   
+[Regras em condicionais](#id06)   
+[Parâmetros e desestruturação](#id07)   
+[Números mágicos](#id08)   
+[Comentários vs Documentação](#id09)   
+[Syntactic Sugars](#id10)   
 
 <br>
 
@@ -54,6 +54,10 @@
   ```
 
 #### ⚔️ [Desafio](../clean-code-desafios/desafios.md#id1)
+<br>
+
+[![Home](../.github/home.png)](../README.md)&nbsp;&nbsp;&nbsp;
+[![Início](../.github/arrow.png)](./react.md)
 
 <br>
 
@@ -80,6 +84,9 @@
   ```
 
 #### ⚔️ [Desafio](../clean-code-desafios/desafios.md#id2)
+
+[![Home](../.github/home.png)](../README.md)&nbsp;&nbsp;&nbsp;
+[![Início](../.github/arrow.png)](./react.md)
 
 <br>
 
@@ -111,6 +118,9 @@
 
 #### ⚔️ [Desafio](../clean-code-desafios/desafios.md#id3)
 
+[![Home](../.github/home.png)](../README.md)&nbsp;&nbsp;&nbsp;
+[![Início](../.github/arrow.png)](./react.md)
+
 <br>
 
 <div id="id05"></div>
@@ -120,6 +130,9 @@
 - Os leitores de tela não conseguem ler dois idiomas ao mesmo tempo, ou seja, os desenvolvedores com deficiências visuais não conseguiram utilizar o código que está em português, visto que as linguagens de programação são em inglês.
 
 #### ⚔️ [Desafio](../clean-code-desafios/desafios.md#id4)
+
+[![Home](../.github/home.png)](../README.md)&nbsp;&nbsp;&nbsp;
+[![Início](../.github/arrow.png)](./react.md)
 
 <br>
 
@@ -168,6 +181,9 @@
 - prefira unificar as condições e, no caso de não ser possível, utilizar vários `ifs`.
 
 #### ⚔️ [Desafio](../clean-code-desafios/desafios.md#id5)
+
+[![Home](../.github/home.png)](../README.md)&nbsp;&nbsp;&nbsp;
+[![Início](../.github/arrow.png)](./react.md)
 
 <br>
 
@@ -268,7 +284,12 @@
   }
   ```
 
-#### ⚔️ [Desafio](../clean-code-desafios/desafios.md#id6)
+#### ⚔️ [Desafio](../clean-code-desafios/desafios.md#id6)  
+
+<br>
+
+[![Home](../.github/home.png)](../README.md)&nbsp;&nbsp;&nbsp;
+[![Início](../.github/arrow.png)](./react.md)
 
 <br>
 
@@ -305,6 +326,11 @@
 
 <br>
 
+[![Home](../.github/home.png)](../README.md)&nbsp;&nbsp;&nbsp;
+[![Início](../.github/arrow.png)](./react.md)
+
+<br>
+
 <div id="id09"></div>
 
 ## 📌 Comentários vs Documentação
@@ -321,6 +347,11 @@
   ```
 
 #### ⚔️ [Desafio](../clean-code-desafios/desafios.md#id8)
+
+<br>
+
+[![Home](../.github/home.png)](../README.md)&nbsp;&nbsp;&nbsp;
+[![Início](../.github/arrow.png)](./react.md)
 
 <br>
 
@@ -347,3 +378,6 @@
 #### ⚔️ [Desafio](../clean-code-desafios/desafios.md#id9)
 
 <br>
+
+[![Home](../.github/home.png)](../README.md)&nbsp;&nbsp;&nbsp;
+[![Início](../.github/arrow.png)](./react.md)

@@ -3,12 +3,11 @@
 </h1>
 
 ## Índice
-[Desacoplando componentes](#id01)<br>
-[Componentes puros](#id02)<br>
-[Funções e eventos no React](#id03)<br>
-[Composição vs Customização](#id04)<br>
-[Condicionais no render](#id05)<br>
-
+[Desacoplando componentes](#id01)  
+[Componentes puros](#id02)  
+[Funções e eventos no React](#id03)  
+[Composição vs Customização](#id04)  
+[Condicionais no render](#id05)  
 <br>
 
 <div id="id01"></div>
@@ -23,7 +22,11 @@ O projeto react são projetos que carregam várias camadas, o que pode deixar o 
 **Apontamentos**
 - Nem tudo que se repete precisa ser obrigatoriamente ser separado em componentes.
 - Quando existe uma variável ou função que é utilizada somente em uma parte específica do código, é indício que essa parte pode ser isolada em um componente.
-- Sempre que quisermos verificar se o componente precisa ser desacoplado a análise ideal é através da camada de javascript e não do conteúdo dentro do `return`.
+- Sempre que quisermos verificar se o componente precisa ser desacoplado a análise ideal é através da camada de javascript e não do conteúdo dentro do `return`.  
+<br>
+
+[![Home](../.github/home.png)](../README.md)&nbsp;&nbsp;&nbsp;
+[![Início](../.github/arrow.png)](./react.md)
 
 <br>
 
@@ -34,6 +37,11 @@ O projeto react são projetos que carregam várias camadas, o que pode deixar o 
 - Dependem somente dos parâmetros enviados para ela e com esses parâmetros ela consegue ser executada e devolver uma resposta.
 - No desacoplamento é importante separar somente a lógica que mantém o componente puro.
 - Para sabermos se o componente é puro basta mover o componente de um lugar para outro da aplicação e o mesmo deverá continuar funcionando, pois o mesmo não depende de um contexto ou de uma lógica acoplada a outro componente.
+  
+<br>
+
+[![Home](../.github/home.png)](../README.md)&nbsp;&nbsp;&nbsp;
+[![Início](../.github/arrow.png)](./react.md)
 
 <br>
 
@@ -43,6 +51,11 @@ O projeto react são projetos que carregam várias camadas, o que pode deixar o 
 - sempre que for criar uma função dentro do componente e essa função é disparada através de um evento do usuário, como um `click` ou `submit`, prefixar a função com com `handle`. Assim fica fácil a diferenciação entre as funções.
 - quando um componente precisa receber uma função disparada através de um evento do usuário, prefixar com `on`.
 - O padrão utilizado não é o mais importante. O importante é manter um padrão quando se trabalha em projetos com componentes em React.
+  
+<br>
+
+[![Home](../.github/home.png)](../README.md)&nbsp;&nbsp;&nbsp;
+[![Início](../.github/arrow.png)](./react.md)
 
 <br>
 
@@ -63,6 +76,10 @@ O projeto react são projetos que carregam várias camadas, o que pode deixar o 
 
 <br>
 
+[![Home](../.github/home.png)](../README.md)&nbsp;&nbsp;&nbsp;
+[![Início](../.github/arrow.png)](./react.md)
+<br>
+
 <div id="id05"></div>
 
 ### 📌 Condicionais no render
@@ -78,3 +95,6 @@ O projeto react são projetos que carregam várias camadas, o que pode deixar o 
 [✔️ Fora do html](../react-app/src/App.tsx)
 
 <br>
+
+[![Home](../.github/home.png)](../README.md)&nbsp;&nbsp;&nbsp;
+[![Início](../.github/arrow.png)](./react.md)
