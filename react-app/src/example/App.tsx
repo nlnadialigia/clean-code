@@ -1,7 +1,7 @@
 import {useEffect, useState} from 'react';
-import {Footer} from './components/Footer';
-import Header from './components/Header';
-import * as Input from './components/Input';
+import {Footer} from '../components/Footer';
+import Header from '../components/Header';
+import {Input} from './Input';
 
 function App() {
   const [todos, setTodos] = useState<string[]>([])
@@ -18,13 +18,11 @@ function App() {
     <div>
       <Header onCreateNewTodo={() => {}} />
 
-      <Input.Root>
-        <Input.Label htmlFor='name' id='name' />
-        <Input.FormField />
-        <Input.Icon><span /></Input.Icon>
-        <Input.ErrorMessage message='Digite seu nome corretamente' />
-        <Input.Icon><span /></Input.Icon>
-      </Input.Root>
+      <Input 
+        label="Nome"
+        errorMessage='Digite seu nome corretamente'
+        icon={<div />}
+      />
 
       <main>
         <h2>Advantages</h2>

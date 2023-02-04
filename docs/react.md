@@ -6,8 +6,8 @@
 [Desacoplando componentes](id#1)<br>
 [Componentes puros](id#2)<br>
 [Funções e eventos no React](id#3)<br>
-<!-- 
 [Composição vs Customização](id#4)<br>
+<!-- 
 [Condicionais no render](id#5)<br>
  -->
 <br>
@@ -49,7 +49,17 @@ O projeto react são projetos que carregam várias camadas, o que pode deixar o 
 
 <div id="id4"></div>
 
-<!-- ### 📌 Composição vs Customização -->
+### 📌 Composição vs Customização
+- no pattern de composição ao invés da utilização de propriedade para configurar o componente, cria-se outros componentes.
+
+#### Exemplo:
+  **Customização**
+  - [Input](../react-app/src/example/Input.tsx)
+  - [App](../react-app/src/example/App.tsx)
+  
+  **Composição**
+  - [Input](../react-app/src/components/Input.tsx)
+  - [Input](../react-app/src/App.tsx)
 
 <br>
 
