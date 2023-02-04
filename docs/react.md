@@ -2,6 +2,8 @@
   <img src="../.github/react.png" alt="Código limpo no React">
 </h1>
 
+<div id="id00"></div>
+
 ## Índice
 [Desacoplando componentes](#id01)  
 [Componentes puros](#id02)  
@@ -25,8 +27,8 @@ O projeto react são projetos que carregam várias camadas, o que pode deixar o 
 - Sempre que quisermos verificar se o componente precisa ser desacoplado a análise ideal é através da camada de javascript e não do conteúdo dentro do `return`.  
 <br>
 
-[![Home](../.github/home.png)](../README.md)&nbsp;&nbsp;&nbsp;
-[![Início](../.github/arrow.png)](./react.md)
+[![Home](../.github/home.png)](https://github.com/nlnadialigia/clean-code)&nbsp;&nbsp;&nbsp;
+[![Início](../.github/arrow.png)](#id00)
 
 <br>
 
@@ -40,8 +42,8 @@ O projeto react são projetos que carregam várias camadas, o que pode deixar o 
   
 <br>
 
-[![Home](../.github/home.png)](../README.md)&nbsp;&nbsp;&nbsp;
-[![Início](../.github/arrow.png)](./react.md)
+[![Home](../.github/home.png)](https://github.com/nlnadialigia/clean-code)&nbsp;&nbsp;&nbsp;
+[![Início](../.github/arrow.png)](#id00)
 
 <br>
 
@@ -54,8 +56,8 @@ O projeto react são projetos que carregam várias camadas, o que pode deixar o 
   
 <br>
 
-[![Home](../.github/home.png)](../README.md)&nbsp;&nbsp;&nbsp;
-[![Início](../.github/arrow.png)](./react.md)
+[![Home](../.github/home.png)](https://github.com/nlnadialigia/clean-code)&nbsp;&nbsp;&nbsp;
+[![Início](../.github/arrow.png)](#id00)
 
 <br>
 
@@ -76,8 +78,8 @@ O projeto react são projetos que carregam várias camadas, o que pode deixar o 
 
 <br>
 
-[![Home](../.github/home.png)](../README.md)&nbsp;&nbsp;&nbsp;
-[![Início](../.github/arrow.png)](./react.md)
+[![Home](../.github/home.png)](https://github.com/nlnadialigia/clean-code)&nbsp;&nbsp;&nbsp;
+[![Início](../.github/arrow.png)](#id00)
 <br>
 
 <div id="id05"></div>
@@ -96,5 +98,5 @@ O projeto react são projetos que carregam várias camadas, o que pode deixar o 
 
 <br>
 
-[![Home](../.github/home.png)](../README.md)&nbsp;&nbsp;&nbsp;
-[![Início](../.github/arrow.png)](./react.md)
+[![Home](../.github/home.png)](https://github.com/nlnadialigia/clean-code)&nbsp;&nbsp;&nbsp;
+[![Início](../.github/arrow.png)](#id00)

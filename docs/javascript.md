@@ -2,6 +2,8 @@
   <img src="../.github/javascript.png" alt="Código limpo no Javascript">
 </h1>
 
+<div id="id01"></div>
+
 ## Índice
 [Nome de variáveis](#id2)  
 [Booleanos](#id3)  
@@ -15,7 +17,7 @@
 
 <br>
 
-<div id="id2"></div>
+<div id="id02"></div>
 
 ## 📌 Nome de variáveis
 - evitar diminutivos não entendíveis (u, x, y)
@@ -56,12 +58,12 @@
 #### ⚔️ [Desafio](../clean-code-desafios/desafios.md#id1)
 <br>
 
-[![Home](../.github/home.png)](../README.md)&nbsp;&nbsp;&nbsp;
-[![Início](../.github/arrow.png)](./react.md)
+[![Home](../.github/home.png)](https://github.com/nlnadialigia/clean-code)&nbsp;&nbsp;&nbsp;
+[![Início](../.github/arrow.png)](#id01)
 
 <br>
 
-<div id="id3"></div>
+<div id="id03"></div>
 
 ## 📌 Booleanos
 - variáveis que armazenam o estado da aplicação
@@ -85,8 +87,8 @@
 
 #### ⚔️ [Desafio](../clean-code-desafios/desafios.md#id2)
 
-[![Home](../.github/home.png)](../README.md)&nbsp;&nbsp;&nbsp;
-[![Início](../.github/arrow.png)](./react.md)
+[![Home](../.github/home.png)](https://github.com/nlnadialigia/clean-code)&nbsp;&nbsp;&nbsp;
+[![Início](../.github/arrow.png)](#id01)
 
 <br>
 
@@ -118,8 +120,8 @@
 
 #### ⚔️ [Desafio](../clean-code-desafios/desafios.md#id3)
 
-[![Home](../.github/home.png)](../README.md)&nbsp;&nbsp;&nbsp;
-[![Início](../.github/arrow.png)](./react.md)
+[![Home](../.github/home.png)](https://github.com/nlnadialigia/clean-code)&nbsp;&nbsp;&nbsp;
+[![Início](../.github/arrow.png)](#id01)
 
 <br>
 
@@ -131,8 +133,8 @@
 
 #### ⚔️ [Desafio](../clean-code-desafios/desafios.md#id4)
 
-[![Home](../.github/home.png)](../README.md)&nbsp;&nbsp;&nbsp;
-[![Início](../.github/arrow.png)](./react.md)
+[![Home](../.github/home.png)](https://github.com/nlnadialigia/clean-code)&nbsp;&nbsp;&nbsp;
+[![Início](../.github/arrow.png)](#id01)
 
 <br>
 
@@ -182,8 +184,8 @@
 
 #### ⚔️ [Desafio](../clean-code-desafios/desafios.md#id5)
 
-[![Home](../.github/home.png)](../README.md)&nbsp;&nbsp;&nbsp;
-[![Início](../.github/arrow.png)](./react.md)
+[![Home](../.github/home.png)](https://github.com/nlnadialigia/clean-code)&nbsp;&nbsp;&nbsp;
+[![Início](../.github/arrow.png)](#id01)
 
 <br>
 
@@ -288,8 +290,8 @@
 
 <br>
 
-[![Home](../.github/home.png)](../README.md)&nbsp;&nbsp;&nbsp;
-[![Início](../.github/arrow.png)](./react.md)
+[![Home](../.github/home.png)](https://github.com/nlnadialigia/clean-code)&nbsp;&nbsp;&nbsp;
+[![Início](../.github/arrow.png)](#id01)
 
 <br>
 
@@ -326,8 +328,8 @@
 
 <br>
 
-[![Home](../.github/home.png)](../README.md)&nbsp;&nbsp;&nbsp;
-[![Início](../.github/arrow.png)](./react.md)
+[![Home](../.github/home.png)](https://github.com/nlnadialigia/clean-code)&nbsp;&nbsp;&nbsp;
+[![Início](../.github/arrow.png)](#id01)
 
 <br>
 
@@ -350,8 +352,8 @@
 
 <br>
 
-[![Home](../.github/home.png)](../README.md)&nbsp;&nbsp;&nbsp;
-[![Início](../.github/arrow.png)](./react.md)
+[![Home](../.github/home.png)](https://github.com/nlnadialigia/clean-code)&nbsp;&nbsp;&nbsp;
+[![Início](../.github/arrow.png)](#id01)
 
 <br>
 
@@ -379,5 +381,5 @@
 
 <br>
 
-[![Home](../.github/home.png)](../README.md)&nbsp;&nbsp;&nbsp;
-[![Início](../.github/arrow.png)](./react.md)
+[![Home](../.github/home.png)](https://github.com/nlnadialigia/clean-code)&nbsp;&nbsp;&nbsp;
+[![Início](../.github/arrow.png)](#id01)

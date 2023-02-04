@@ -1,18 +1,18 @@
-<p align="center">
+<div align="center">
   
   ![Clean code](.github/logo.png)
-</p>
+</div>
 
-<div  align="center">
+<h1  align="center">
 
 ![Github last commit](https://img.shields.io/github/last-commit/nlnadialigia/clean-code?color=FF6E31&style=plastic)
 ![GitHub repo size](https://img.shields.io/github/repo-size/nlnadialigia/clean-code?color=ff6e31&style=plastic)
 ![Github top language](https://img.shields.io/github/languages/top/nlnadialigia/clean-code?color=FF6E31)
 [![License](https://img.shields.io/github/license/nlnadialigia/clean-code?color=FF6E31&logoColor=FF6E31&style=plastic)](./LICENSE)
-</div><br>
+</h1><br>
 
 
-# Índice
+## Índice
 [Sobre](#id01)  
 [Código limpo com Javascript](#id02)  
 [Código limpo com React](#id03)  
