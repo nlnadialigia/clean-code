@@ -49,11 +49,11 @@ Clean Code está pautado em 3 pilares: legibilidade, manutenível, previsibilida
 <div id="id03"></div>
 
 ## 📌 Código limpo com React
-[Desacoplando componentes](./docs/react.md#id#1)<br>
-[Componentes puros](./docs/react.md#id#2)<br>
-[Funções e eventos no React](./docs/react.md#id#3)<br>
-[Composição vs Customização](./docs/react.md#id#4)<br>
-[Condicionais no render](./docs/react.md#id#5)<br>
+- [Desacoplando componentes](./docs/react.md#id01)<br>
+- [Componentes puros](./docs/react.md#id02)<br>
+- [Funções e eventos no React](./docs/react.md#id03)<br>
+- [Composição vs Customização](./docs/react.md#id04)<br>
+- [Condicionais no render](./docs/react.md#id05)<br>
 
 <br>
 

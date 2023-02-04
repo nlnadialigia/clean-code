@@ -3,15 +3,15 @@
 </h1>
 
 ## Índice
-[Desacoplando componentes](id#1)<br>
-[Componentes puros](id#2)<br>
-[Funções e eventos no React](id#3)<br>
-[Composição vs Customização](id#4)<br>
-[Condicionais no render](id#5)<br>
+[Desacoplando componentes](#id01)<br>
+[Componentes puros](#id02)<br>
+[Funções e eventos no React](#id03)<br>
+[Composição vs Customização](#id04)<br>
+[Condicionais no render](#id05)<br>
 
 <br>
 
-<div id="id1"></div>
+<div id="id01"></div>
 
 ### 📌 Desacoplando componentes
 O projeto react são projetos que carregam várias camadas, o que pode deixar o código confusão e dificultar a manutenção.
@@ -27,7 +27,7 @@ O projeto react são projetos que carregam várias camadas, o que pode deixar o 
 
 <br>
 
-<div id="id2"></div>
+<div id="id02"></div>
 
 ### 📌 Componentes puros
 - Funções puras são função que não dependem de informações externas. 
@@ -37,7 +37,7 @@ O projeto react são projetos que carregam várias camadas, o que pode deixar o 
 
 <br>
 
-<div id="id3"></div>
+<div id="id03"></div>
 
 ### 📌 Funções e eventos no React
 - sempre que for criar uma função dentro do componente e essa função é disparada através de um evento do usuário, como um `click` ou `submit`, prefixar a função com com `handle`. Assim fica fácil a diferenciação entre as funções.
@@ -46,7 +46,7 @@ O projeto react são projetos que carregam várias camadas, o que pode deixar o 
 
 <br>
 
-<div id="id4"></div>
+<div id="id04"></div>
 
 ### 📌 Composição vs Customização
 - no pattern de composição ao invés da utilização de propriedade para configurar o componente, cria-se outros componentes.
@@ -63,7 +63,7 @@ O projeto react são projetos que carregam várias camadas, o que pode deixar o 
 
 <br>
 
-<div id="id5"></div>
+<div id="id05"></div>
 
 ### 📌 Condicionais no render
 - evite colocar as condicionais na camada de renderização.
