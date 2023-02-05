@@ -1,6 +1,6 @@
 <h1 align="center">
   <img src="../.github/node.png" alt="Código limpo no Node.js">
-</h1>
+</h1><br>
 
 <div id="id00"></div>
 
@@ -16,7 +16,7 @@
 
 <div id="id01"></div>
 
-### 📌 Clean code no back-end
+## 📌 Clean code no back-end
 - Código limpo não é dependente de arquitetura.
 - Uma boa forma de saber se o código está mais limpo é dar atenção aos testes automatizados.
 - Se consegue escrever testes de maneira mais simples, alterar código sem quebrar muito a switch de testes.
@@ -29,7 +29,7 @@
 
 <div id="id02"></div>
 
-### 📌 Princípios de SOLID
+## 📌 Princípios de SOLID
 <br>
 
 > **S** — **Single Responsiblity Principle** (*Princípio da responsabilidade única*)  
@@ -112,7 +112,7 @@ createUser(createUserOnDatabase)
 
 <div id="id03"></div>
 
-### 📌 Exemplo prático de SOLID
+## 📌 Exemplo prático de SOLID
 <br>
 
 [![Home](../.github/home.png)](https://github.com/nlnadialigia/clean-code)&nbsp;&nbsp;&nbsp;
@@ -122,7 +122,7 @@ createUser(createUserOnDatabase)
 
 <div id="id04"></div>
 
-### 📌 Princípios de DDD
+## 📌 Princípios de DDD
 <br>
 
 [![Home](../.github/home.png)](https://github.com/nlnadialigia/clean-code)&nbsp;&nbsp;&nbsp;
@@ -132,7 +132,7 @@ createUser(createUserOnDatabase)
 
 <div id="id05"></div>
 
-### 📌 Exemplo prático de DDD
+## 📌 Exemplo prático de DDD
 <br>
 
 [![Home](../.github/home.png)](https://github.com/nlnadialigia/clean-code)&nbsp;&nbsp;&nbsp;
@@ -142,7 +142,7 @@ createUser(createUserOnDatabase)
 
 <div id="id06"></div>
 
-### 📌 Unindo DDD ao SOLID
+## 📌 Unindo DDD ao SOLID
 <br>
 
 [![Home](../.github/home.png)](https://github.com/nlnadialigia/clean-code)&nbsp;&nbsp;&nbsp;

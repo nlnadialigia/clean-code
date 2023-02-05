@@ -14,7 +14,7 @@
 
 <div id="id01"></div>
 
-### 📌 Desacoplando componentes
+## 📌 Desacoplando componentes
 O projeto react são projetos que carregam várias camadas, o que pode deixar o código confusão e dificultar a manutenção.
 
 **Quando se separa os componentes em componentes menos?**
@@ -34,7 +34,7 @@ O projeto react são projetos que carregam várias camadas, o que pode deixar o 
 
 <div id="id02"></div>
 
-### 📌 Componentes puros
+## 📌 Componentes puros
 - Funções puras são função que não dependem de informações externas. 
 - Dependem somente dos parâmetros enviados para ela e com esses parâmetros ela consegue ser executada e devolver uma resposta.
 - No desacoplamento é importante separar somente a lógica que mantém o componente puro.
@@ -49,7 +49,7 @@ O projeto react são projetos que carregam várias camadas, o que pode deixar o 
 
 <div id="id03"></div>
 
-### 📌 Funções e eventos no React
+## 📌 Funções e eventos no React
 - sempre que for criar uma função dentro do componente e essa função é disparada através de um evento do usuário, como um `click` ou `submit`, prefixar a função com com `handle`. Assim fica fácil a diferenciação entre as funções.
 - quando um componente precisa receber uma função disparada através de um evento do usuário, prefixar com `on`.
 - O padrão utilizado não é o mais importante. O importante é manter um padrão quando se trabalha em projetos com componentes em React.
@@ -63,7 +63,7 @@ O projeto react são projetos que carregam várias camadas, o que pode deixar o 
 
 <div id="id04"></div>
 
-### 📌 Composição vs Customização
+## 📌 Composição vs Customização
 - no pattern de composição ao invés da utilização de propriedade para configurar o componente, cria-se outros componentes.
 
 **Exemplo:**
@@ -84,7 +84,7 @@ O projeto react são projetos que carregam várias camadas, o que pode deixar o 
 
 <div id="id05"></div>
 
-### 📌 Condicionais no render
+## 📌 Condicionais no render
 - evite colocar as condicionais na camada de renderização.
 - deixar a camada de html com o mínimo de dependência de operações javascript.
 
