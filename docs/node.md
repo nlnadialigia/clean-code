@@ -16,9 +16,12 @@
 <div id="id01"></div>
 
 ### 📌 Clean code no back-end
+- Código limpo não é dependente de arquitetura.
+- Uma boa forma de saber se o código está mais limpo é dar atenção aos testes automatizados.
+- Se consegue escrever testes de maneira mais simples, alterar código sem quebrar muito a switch de testes.
 <br>
 
-[![Home](../.github/home.png)](../)&nbsp;&nbsp;&nbsp;
+[![Home](../.github/home.png)](https://github.com/nlnadialigia/clean-code)&nbsp;&nbsp;&nbsp;
 [![Início](../.github/arrow.png)](#id00)
 
 <br>
