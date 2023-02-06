@@ -8,8 +8,8 @@
 [Clean code no back-end](#id01)  
 [Princípios de SOLID](#id02)  
 [Exemplo prático de SOLID](#id03)  
-<!-- 
 [Princípios de DDD](#id04)  
+<!-- 
 [Exemplo prático de DDD](#id05)  
 [Unindo DDD ao SOLID](#id06)   -->
 <br>
@@ -126,17 +126,33 @@ createUser(createUserOnDatabase)
 [![Início](../.github/arrow.png)](#id00)
 
 <br>
-<!--
 
 <div id="id04"></div>
 
 ## 📌 Princípios de DDD
+> **Domain-Driven Design** - boas práticas de design estratégico e design tático, apoiando todo o ciclo de desenvolvimento de software e possibilitando criar sistemas de alta complexidade.
+
+- *Domínio* -> é o problema que se está resolvendo. É problema e o contexto. Dentro do domínio existem vários subdomínios.
+- *Subdomínios* -> etapas dentro da problemática que se está tentando resolver. Diferentes áreas de entendimento, dentro do domínio maior.
+  ```
+    E-commerce
+      - Logística
+      - Faturamento
+      - Pagamento
+      - Estoque
+  ```
+- *Domain Experts* -> pessoas com conhecimento profundo sobre o domínio, que consegue identificar as identidades e casos de uso da aplicação.
+- *Entidades* -> tudo aquilo que pode ser representado palpavelmente.
+- *Casos de uso* -> ações que são feitas entre as entidades. Como as entidades se relacionam
+- o DDD mostra que em subdomínios diferentes, em uma mesma entidade tem nomes diferentes. Exemplo: `comprador` e `destinatário`
+
 <br>
 
 [![Home](../.github/home.png)](https://github.com/nlnadialigia/clean-code)&nbsp;&nbsp;&nbsp;
 [![Início](../.github/arrow.png)](#id00)
 
 <br>
+<!--
 
 <div id="id05"></div>
 
