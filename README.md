@@ -17,6 +17,7 @@
 [Código limpo com Javascript](#id02)  
 [Código limpo no React](#id03)  
 [Código limpo no Node.js](#id04)  
+[Certificado](./docs/certificate.md#id05)  
 [Autora](#id99)
 
 <br>
@@ -54,7 +55,7 @@ Clean Code está pautado em 3 pilares: legibilidade, manutenível, previsibilida
 - [Condicionais no render](./docs/react.md#id05)  
 <br>
 
-<div id="id03"></div>
+<div id="id04"></div>
 
 ## 📌 Código limpo no Node.js
 - [Clean code no back-end](./docs/node.md#id01)  
@@ -63,6 +64,7 @@ Clean Code está pautado em 3 pilares: legibilidade, manutenível, previsibilida
 - [Princípios de DDD](./docs/node.md#id04)  
 - [Exemplo prático de DDD](./docs/node.md#id05)  
 - [Unindo DDD ao SOLID](./docs/node.md#id06)   
+<br>
 
 <div id="id99"></div>
 
