@@ -10,8 +10,7 @@
 [Exemplo prático de SOLID](#id03)  
 [Princípios de DDD](#id04)  
 [Exemplo prático de DDD](#id05)  
-<!-- 
-[Unindo DDD ao SOLID](#id06)   -->
+[Unindo DDD ao SOLID](#id06)   
 <br>
 
 <div id="id01"></div>
@@ -172,15 +171,17 @@ createUser(createUserOnDatabase)
 [![Início](../.github/arrow.png)](#id00)
 
 <br>
-<!--
 
 <div id="id06"></div>
 
 ## 📌 Unindo DDD ao SOLID
+- Será demonstrado o funcionamento da aplicação sem ter um banco de dados.
+- Repository -> classe que conecta a aplicação a uma camada de persistência externa, como um banco de dados, um arquivo.
+
+- [Exemplo](../node-examples/ddd-solid/)
 <br>
 
 [![Home](../.github/home.png)](https://github.com/nlnadialigia/clean-code)&nbsp;&nbsp;&nbsp;
 [![Início](../.github/arrow.png)](#id00)
 
 <br>
--->
