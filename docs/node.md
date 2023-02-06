@@ -9,8 +9,8 @@
 [Princípios de SOLID](#id02)  
 [Exemplo prático de SOLID](#id03)  
 [Princípios de DDD](#id04)  
-<!-- 
 [Exemplo prático de DDD](#id05)  
+<!-- 
 [Unindo DDD ao SOLID](#id06)   -->
 <br>
 
@@ -152,17 +152,27 @@ createUser(createUserOnDatabase)
 [![Início](../.github/arrow.png)](#id00)
 
 <br>
-<!--
 
 <div id="id05"></div>
 
 ## 📌 Exemplo prático de DDD
+- A aplicação deve ser pensada totalmente desconectada do banco de dados.
+- Deveria ser possível a aplicação funcionar sem banco de dados.
+- Deveria garantir, inclusive via testes automatizados, que as regras de negócio estão validades sem banco de dados.
+- A aplicação deveria funcionar sem qualquer dependência externa.
+- Pensando na aplicação nas entidades e casos de uso.
+- A estrutura de pastas é irrelevante.
+- As entidades no código não precisam refletir a estrutura do banco de dados.
+- A maneira que os dados serão persistidos não deveria influenciar na maneira que o código é desenhado.
+
+- [Exemplo](../node-examples/ddd/)
 <br>
 
 [![Home](../.github/home.png)](https://github.com/nlnadialigia/clean-code)&nbsp;&nbsp;&nbsp;
 [![Início](../.github/arrow.png)](#id00)
 
 <br>
+<!--
 
 <div id="id06"></div>
 

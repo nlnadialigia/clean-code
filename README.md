@@ -61,8 +61,8 @@ Clean Code está pautado em 3 pilares: legibilidade, manutenível, previsibilida
 - [Princípios de SOLID](./docs/node.md#id02)  
 - [Exemplo prático de SOLID](./docs/node.md#id03)  
 - [Princípios de DDD](./docs/node.md#id04)  
-<!-- 
 - [Exemplo prático de DDD](./docs/node.md#id05)  
+<!-- 
 - [Unindo DDD ao SOLID](./docs/node.md#id06)   
 -->
 
