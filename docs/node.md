@@ -7,8 +7,8 @@
 ## Índice
 [Clean code no back-end](#id01)  
 [Princípios de SOLID](#id02)  
-<!-- 
 [Exemplo prático de SOLID](#id03)  
+<!-- 
 [Princípios de DDD](#id04)  
 [Exemplo prático de DDD](#id05)  
 [Unindo DDD ao SOLID](#id06)   -->
@@ -108,17 +108,25 @@ createUser(createUserOnDatabase)
 [![Início](../.github/arrow.png)](#id00)
 
 <br>
-<!--
 
 <div id="id03"></div>
 
 ## 📌 Exemplo prático de SOLID
+- No exemplo será demonstrada a utilização dos princípios no cálculo de desconto. Existem valores diferentes de descontos para tipos diferentes de pagamentos e quantidades de parcelas.
+- **SRP** -> a classe vai ser responsável somente por calcular o desconto do pedido
+- **OCP** ->  No caso de precisar adicionar novas formas de pagamento, não será necessário modificar a classe de desconto, somente adicionar uma classe com o novo método de pagamento, não ferindo dessa maneiro o OCP.
+- **LSP** -> podemos substituir um método sem afetar a funcionalidade. Exemplo, alterando o método de pagamento entre os diversos tipos.
+- **DIP** -> quando a classe de cálculo de desconto é chamada, é quando a dependência está sendo enviada.
+
+- [Exemplo](../node-examples/solid.ts)
+
 <br>
 
 [![Home](../.github/home.png)](https://github.com/nlnadialigia/clean-code)&nbsp;&nbsp;&nbsp;
 [![Início](../.github/arrow.png)](#id00)
 
 <br>
+<!--
 
 <div id="id04"></div>
 
